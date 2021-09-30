@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.App{
+display: flex;
+margin-top: 40px;
+margin-left: 300px;
+padding-right: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img{
+margin-right: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+font-size: 25px;
 }
+.rated{
+display:inline-block ;
+margin-right: 20px;
+margin-left: 20px;
+font-size: 15px;
+background-color: #a9a9a9;
+border-radius: 5px;
+width: 6%;
+}
+.runtime{
+display:inline-block ;
+margin-right: 20px;
+margin-left: 20px;
+font-size: 15px;
+background-color: #a9a9a9;
+border-radius: 5px;
+}
+.rating{
+  color: rgb(72, 72, 226);
+  font-size: 25px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.both{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 36%;
 }
-
-.App-link {
-  color: #61dafb;
+.genre{
+margin-right:50%;
+margin-left: 20px;
+font-size: 15px;
+text-align: center;
+background-color: #a9a9a9;
+border-radius: 10px;
+width: 22%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.plot{
+font-size:15px ;
+font-weight: 500;
+width: 36%;
+}
+.actors{
+  font-size:15px ;
+  font-weight: 500;
 }
